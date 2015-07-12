@@ -14,8 +14,8 @@
 .content{
     background-color: #17a697;
     border: 2px solid #13547d;
-    border-radius: 9px;
-    box-shadow: 2px 2px 6px 1px;
+    border-radius: 3px;
+    /*box-shadow: 2px 2px 6px 1px;*/
 }
 
 .jumbotron {
