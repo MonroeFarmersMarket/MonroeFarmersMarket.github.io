@@ -1,0 +1,60 @@
+﻿body {
+    margin-top:10px;
+}
+
+.jumbotron {
+
+    border-radius:4px;
+    text-align:center;
+
+
+
+}
+
+.carousel .item{
+
+    height:500px;
+
+}
+
+
+
+/*
+@media (max-width: 767px) {
+    .slider-size {
+        height: auto;
+    }
+    .slider-size > img {
+         width: 80%;
+    }
+}
+
+
+@media (max-width: 991px) and (min-width: 768px) {
+    .slider-size {
+        height: auto;
+    }
+    .slider-size > img {
+        width: 80%;
+    }
+}
+
+
+@media (max-width: 1023px) and (min-width: 992px) {
+    .slider-size {
+         height: 200px;
+    }
+    .slider-size > img {
+        width: 80%;
+    }
+}
+
+
+@media (min-width: 1024px) {
+    .slider-size {
+        height: 300px;
+    }
+    .slider-size > img {
+        width: 60%;
+    }
+}*/
