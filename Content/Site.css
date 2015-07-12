@@ -1,5 +1,21 @@
 ﻿body {
-    margin-top:10px;
+    
+}
+
+.page{
+
+    box-shadow: 2px 2px 6px 2px;
+    
+    padding:5px;
+    background-color: #bfd4d9;
+
+}
+
+.content{
+    background-color: #17a697;
+    border: 2px solid #13547d;
+    border-radius: 9px;
+    box-shadow: 2px 2px 6px 1px;
 }
 
 .jumbotron {
@@ -13,48 +29,76 @@
 
 .carousel .item{
 
-    height:500px;
+    height:450px;
+
+}
+.carousel{
+    border: 3px solid black;
+    border-radius:5px;
 
 }
 
+.navbar-default {
+    background-image: url('../images/jeans.jpg');
+    /*background-image: none;
+    background-color: #B4D6EB;
+    background-repeat:no-repeat;*/
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    
+}
+
+.navbar-default .navbar-nav > li,
+.navbar-default .navbar-nav > li > a {
+  color: #fff;
+  border-radius:5px;
+}
+
+.navbar-default .navbar-nav > li:hover,
+.navbar-default .navbar-nav > li > a:hover,
+.navbar-default .navbar-nav > li > a:focus {
+  color: #fff;
+  background-color: #13547d;
+ 
+}
+.navbar-default .navbar-nav > .active > li:hover
+{
+    
+  background-color: #0a3956;
+}
+
+.navbar-default .navbar-nav > .active > a:hover{
+
+    color: #13547d;
+    background-color: #13547d;
+}
+
+.Header{
+
+    color:black;
+    font-family: 'Lobster', cursive;
+    
+    font-size: xx-large;
 
 
-/*
-@media (max-width: 767px) {
-    .slider-size {
-        height: auto;
-    }
-    .slider-size > img {
-         width: 80%;
-    }
+
+}
+
+.Text{
+
+    font-family: 'Open Sans', sans-serif;
+    font-size: large;
 }
 
 
-@media (max-width: 991px) and (min-width: 768px) {
-    .slider-size {
-        height: auto;
-    }
-    .slider-size > img {
-        width: 80%;
-    }
-}
+.nav-tabs > li.active > a,
+.nav-tabs > li.active > a:hover,
+.nav-tabs > li.active > a:focus {
+  color: #555;
+  cursor: default;
+  background-color: #17a697;
+  border: 1px solid #ddd;
+  border-bottom-color: transparent;
+}   
 
 
-@media (max-width: 1023px) and (min-width: 992px) {
-    .slider-size {
-         height: 200px;
-    }
-    .slider-size > img {
-        width: 80%;
-    }
-}
-
-
-@media (min-width: 1024px) {
-    .slider-size {
-        height: 300px;
-    }
-    .slider-size > img {
-        width: 60%;
-    }
-}*/
